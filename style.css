@@ -5,3 +5,65 @@
     width: 150px;
     height: 50px;
 }
+
+  .bg-1 {
+    /* The image used */
+    background-image: url("images/bg-1.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+.bg-2{
+    /* The image used */
+    background-image: url("images/bg-2.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+  .carousel-item{
+    padding: 30px 50px;
+  }
+  .buy-now-button{
+    background-color: #020002;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 9px 20px;
+    cursor: pointer;
+  }
+  .see-all a{
+    color: #FF9C35;
+    text-decoration: none;
+  }
+  .card{
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+  }
+  .card-footer{
+    background-color: white;
+    border-top: none;
+  }
+  .card-deck{
+    text-align: center;
+  }
+  .price{
+    font-weight: 600;
+  }
+  .categories{
+    text-align: center;
+  }
+  .categories hr{
+    border: 3px solid #FF9C35;
+    width: 10%;
+    border-radius: 5px;
+  }
