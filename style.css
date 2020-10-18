@@ -49,6 +49,9 @@
   .card{
     border: none;
     box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+    padding-top: 18px;
+
   }
   .card-footer{
     background-color: white;
@@ -77,4 +80,10 @@
   }
   .card-title{
     text-align: center;
+  }
+  .img-style{
+    padding: 5px;
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
   }
