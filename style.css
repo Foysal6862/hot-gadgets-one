@@ -1,6 +1,7 @@
 .container{
     margin-bottom: 100px;
 }
+
 .navbar-logo img{
     width: 150px;
     height: 50px;
@@ -66,4 +67,14 @@
     border: 3px solid #FF9C35;
     width: 10%;
     border-radius: 5px;
+  }
+  .shadow{
+    box-shadow: 5px 5px 10px gray;
+  }
+  .my-auto{
+    margin-top: auto;
+    margin-bottom: auto
+  }
+  .card-title{
+    text-align: center;
   }
